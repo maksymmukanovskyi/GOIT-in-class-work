@@ -1,0 +1,39 @@
+.header{
+    background-image: url(../img/bg-img-01.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding: 150px 0;
+}
+.article{
+    width: 525px;
+    float: right;
+}
+.title{
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 2px 2px 8px #000000;
+    margin-bottom: 28px;
+}
+.header-text{
+    color: #ffffff;
+    font-size: 19px;
+    margin-bottom: 36px;
+}
+.btn{
+    padding: 10px 60px;
+    border-radius: 4px;
+    border:none;
+    font-size: 24px;
+    color: #fff;
+    background: #c66666;
+    transition-duration: 1s ;
+
+}
+.btn:hover{
+    transform: scale(2) rotate(360deg);
+    
+    background: #dc3545;
+
+}
